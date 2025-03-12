@@ -1,0 +1,31 @@
+server:
+  port: 8082
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/users_management_db
+    username: postgres
+    password: 
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/springboot-api-gateway
+
+keycloak:
+  realm: springboot-users-management
+  server-url: http://localhost:8080
+  client-id: users-management-client
+  client-secret: Cz8psUH0lpsdhIPZPdCopdhhWJlEJNB8
+
+logging:
+  level:
+    org.springdoc: DEBUG
+    root: INFO
+    org.springframework: INFO
+    com.users.management: DEBUG
