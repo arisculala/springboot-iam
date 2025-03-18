@@ -1,4 +1,4 @@
-# Spring IAM Service
+# Spring Boot IAM Service
 
 This document provides a detailed guide on setting up and using the **Spring IAM Service**, a user and client identity management system built using **Spring Boot**.
 
@@ -23,8 +23,8 @@ This document provides a detailed guide on setting up and using the **Spring IAM
 ### Clone the repository
 
 ```bash
-git clone https://github.com/arisculala/spring-iam.git
-cd spring-iam
+git clone https://github.com/arisculala/springboot-iam.git
+cd springboot-iam
 ```
 
 ### Build and Run the Application
