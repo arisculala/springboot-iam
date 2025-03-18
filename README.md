@@ -23,8 +23,8 @@ This document provides a detailed guide on setting up and using the **Spring IAM
 ### Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/spring-iam-service.git
-cd spring-iam-service
+git clone https://github.com/arisculala/spring-iam.git
+cd spring-iam
 ```
 
 ### Build and Run the Application
