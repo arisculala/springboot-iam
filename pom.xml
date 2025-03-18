@@ -8,12 +8,12 @@
 		<version>3.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.users.management</groupId>
-	<artifactId>springboot-users-management-with-keycloak</artifactId>
+	<groupId>com.iam</groupId>
+	<artifactId>springboot-iam</artifactId>
 	<version>0.0.1</version>
 	<packaging>war</packaging>
-	<name>springboot-users-management-with-keycloak</name>
-	<description>Springboot Users Management API with KeyCloak SSO Integration</description>
+	<name>springboot-iam</name>
+	<description>Springboot IAM Service</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -55,7 +55,7 @@
         <!-- generic utility library TODO: to point to github packages location of jar file -->
         <dependency>
             <groupId>com.generic</groupId>
-            <artifactId>springboot-utility-library</artifactId>
+            <artifactId>springboot-generic-library</artifactId>
             <version>0.0.1</version>
         </dependency>
 

@@ -3,7 +3,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/users_management_db
+    url: jdbc:postgresql://localhost:5432/iam_service_db
     username: postgres
     password: 
   jpa:
@@ -15,7 +15,15 @@ spring:
     oauth2:
       resourceserver:
         jwt:
-          issuer-uri: http://localhost:8080/realms/springboot-api-gateway
+          issuer-uri: http://localhost:8080/realms/springboot-users-management
+  jackson:
+    date-format: yyyy-MM-dd'T'HH:mm:ss.SSSXXX
+    time-zone: UTC
+
+
+authentication:
+  provider: keycloak  # Change to any other provider you implement
+
 
 keycloak:
   realm: springboot-users-management
