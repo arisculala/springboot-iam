@@ -1,6 +1,6 @@
 # Spring Boot IAM Service
 
-This document provides a detailed guide on setting up and using the **Spring IAM Service**, a user and client identity management system built using **Spring Boot**.
+This document provides a detailed guide on setting up and using the **Spring Boot IAM Service**, a user and client identity management system built using **Spring Boot**.
 
 ## 🚀 Features
 
